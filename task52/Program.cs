@@ -11,7 +11,7 @@ int [,]  GetArray(int m,int n){
     for (int rows = 0; rows < m; rows++){
         for (int columns = 0; columns < n; columns++){
             array[rows, columns] = random.Next(1,10); 
-            Console.Write($"{array[rows,columns]}");
+            Console.Write($"{array[rows,columns]} ");
         }
         Console.WriteLine();
     }
